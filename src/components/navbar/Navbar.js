@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div className='navbar'>
         <div className='container'>
-            <h1 style={{marginLeft: '1rem', color: '#00d8ff'}}>Defi</h1>
+            <h1 style={{marginLeft: '1rem', color: '#00fbff'}}>DesTra</h1>
             <ul className={click ? 'nav active' : 'nav'}>
                 <li className='nav-item'>
                     <a href='/'>Platform</a>
@@ -25,7 +25,7 @@ const Navbar = () => {
                     <a href='/'>About</a>
                 </li>
                 <li className='nav-item'>
-                    <a className='btn' href='/'>Use Difi</a>
+                    <a className='btn' href='/'>Use DesTra</a>
                 </li>
             </ul>
 
